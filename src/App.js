@@ -1,6 +1,9 @@
 import { Saludo } from './components/Saludo';
 
+  function manejadorClick() {
 
+    alert('Hola Buenas!!!');
+  }
 
 
 function App() {
