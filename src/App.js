@@ -1,15 +1,13 @@
 import { Saludo } from './components/Saludo';
+import Saludo2 from './components/Saludo2';
 
-  function manejadorClick() {
-
-    alert('Hola Buenas!!!');
-  }
 
 
 function App() {
   return (
     <div className="App">
       <Saludo />
+      <Saludo2 />
     </div>
   );
 }
